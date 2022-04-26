@@ -195,27 +195,27 @@
                     <p>I am happy to interact with you! Reach me by this form! </p>
                 </div>
                 <div class="contact-form py-4">
-                    <form>
+                    <form action="forms/contact.php" method="post" role="form" class="">
                         <!-- Name input -->
                         <div class="form-outline mb-4">
                             <label class="form-label" for="form4Example1">Name</label>
-                            <input type="text" id="form4Example1" class="form-control" />
+                            <input type="text" id="name" name="name" class="form-control" />
                         </div>
 
                         <!-- Email input -->
                         <div class="form-outline mb-4">
                             <label class="form-label" for="form4Example2">Email address</label>
-                            <input type="email" id="form4Example2" class="form-control" />
+                            <input type="email" id="email" name="email" class="form-control" />
                         </div>
 
                         <!-- Message input -->
                         <div class="form-outline mb-4">
                             <label class="form-label" for="form4Example3">Message</label>
-                            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="4"></textarea>
                         </div>
 
                         <!-- Submit button -->
-                        <button type="button" class="btn btn-warning px-4">Send</button>
+                        <button type="submit" class="btn btn-warning px-4">Send</button>
                     </form>
                 </div>
             </div>
