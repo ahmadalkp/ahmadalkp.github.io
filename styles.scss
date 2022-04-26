@@ -29,11 +29,11 @@
     .desc {
         color: gray;
     }
-
 }
 
 .btn {
     border-radius: 38px;
+    font-weight: 600;
 }
 
 .about {
@@ -69,7 +69,7 @@
 
         @media screen and (min-width: 992px) and (max-width: 1199px) {
             max-width: 32rem;
-          }
+        }
     }
 }
 
@@ -106,16 +106,16 @@ h1 {
         padding-bottom: 1rem;
         border-bottom: 0.5px solid gray;
 
-        h2 {
-            margin-bottom: 1rem;
-            font-weight: bold
-        }
-        p {
-            margin-bottom: 0px;
-        }
-
         .contact {
             text-align: right;
+
+            h2 {
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+            a {
+                margin-bottom: 0px;
+            }
             p {
                 color: gray;
             }
@@ -124,20 +124,21 @@ h1 {
                 text-align: left;
             }
         }
-        
+
         .links {
             font-size: large;
-            a {
-                color: gray;
-                display: grid;
-                text-decoration: none;
-            }
-            a:active {
-                color: white
-            }
+        }
+
+        a {
+            color: gray;
+            display: grid;
+            text-decoration: none;
+        }
+        a:active {
+            color: white;
         }
     }
-    
+
     .bottom-footer {
         a {
             color: gray;
