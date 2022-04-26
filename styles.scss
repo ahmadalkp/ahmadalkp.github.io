@@ -100,6 +100,7 @@ h1 {
 
 .footer {
     background-color: black;
+    color: white;
 
     .top-footer {
         padding-bottom: 1rem;
@@ -123,14 +124,24 @@ h1 {
                 text-align: left;
             }
         }
-
+        
         .links {
             font-size: large;
-            p {
+            a {
                 color: gray;
+                display: grid;
+                text-decoration: none;
+            }
+            a:active {
+                color: white
             }
         }
     }
-
-    color: white;
+    
+    .bottom-footer {
+        a {
+            color: gray;
+            text-decoration: none;
+        }
+    }
 }

@@ -128,7 +128,19 @@ h1 {
   font-size: large;
 }
 
-.footer .top-footer .links p {
+.footer .top-footer .links a {
   color: gray;
+  display: -ms-grid;
+  display: grid;
+  text-decoration: none;
+}
+
+.footer .top-footer .links a:active {
+  color: white;
+}
+
+.footer .bottom-footer a {
+  color: gray;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
