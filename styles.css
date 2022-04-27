@@ -1,3 +1,28 @@
+h1 {
+  font-weight: bold;
+}
+
+h4 {
+  color: #fba81f;
+}
+
+h4 .head-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 38px;
+  font-weight: 600;
+  background-color: #f87537;
+  color: white;
+  padding: 13px;
+}
+
+.btn:hover {
+  background-color: #fba81f;
+}
+
 .name {
   font-size: 50px;
 }
@@ -21,7 +46,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .reverse {
+  .home .reverse {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: reverse !important;
         -ms-flex-direction: column-reverse !important;
@@ -29,7 +54,36 @@
   }
 }
 
-.head-image {
+.home .home-text {
+  padding: 10rem 0rem;
+}
+
+@media screen and (max-width: 425px) {
+  .home .home-text {
+    padding-bottom: 48px;
+  }
+}
+
+.home .home-text .head-text {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 425px) {
+  .home .home-text .head-text {
+    margin-top: -140px;
+  }
+}
+
+.home .home-text .head-text h1 {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.home .home-text .head-text .desc {
+  color: gray;
+}
+
+.home .head-image {
   background-image: url(assets/shapes/blob.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -38,24 +92,24 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
-  .head-image {
+  .home .head-image {
     margin-top: -140px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .head-image {
+  .home .head-image {
     max-height: 335px;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1399px) {
-  .head-image {
+  .home .head-image {
     max-height: 485px;
   }
 }
 
-.head-image img {
+.home .head-image img {
   width: 100%;
   height: auto;
   position: relative;
@@ -63,62 +117,21 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .head-image img {
+  .home .head-image img {
     bottom: 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .head-image img {
+  .home .head-image img {
     bottom: 0px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .head-image img {
+  .home .head-image img {
     border-radius: 50%;
   }
-}
-
-.home-text {
-  padding: 10rem 0rem;
-}
-
-@media screen and (max-width: 425px) {
-  .home-text {
-    padding-bottom: 48px;
-  }
-}
-
-.home-text .head-text {
-  margin-bottom: 0px;
-}
-
-@media screen and (max-width: 425px) {
-  .home-text .head-text {
-    margin-top: -140px;
-  }
-}
-
-.home-text h1 {
-  font-weight: bold;
-  margin-bottom: 0px;
-}
-
-.home-text .desc {
-  color: gray;
-}
-
-.btn {
-  border-radius: 38px;
-  font-weight: 600;
-  background-color: #f87537;
-  color: white;
-  padding: 13px;
-}
-
-.btn:hover {
-  background-color: #FBA81F;
 }
 
 .about {
@@ -154,7 +167,7 @@
 
 .language .language-icon img {
   max-width: 70px;
-  margin: 0px 10px;
+  margin: 5px 10px;
 }
 
 @media screen and (max-width: 425px) {
@@ -167,25 +180,6 @@
   .language .language-icon {
     max-width: 32rem;
   }
-}
-
-@media screen and (max-width: 425px) {
-  .home, .about, .project, .language, .contact {
-    text-align: center;
-  }
-}
-
-h4 {
-  color: #fba81f;
-}
-
-h4 .head-text {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-h1 {
-  font-weight: bold;
 }
 
 .contact .contact-form {
@@ -220,7 +214,7 @@ h1 {
 .footer .top-footer .contact h2 {
   margin-bottom: 1rem;
   font-weight: bold;
-  font-family: 'Qahiri';
+  font-family: "Qahiri";
 }
 
 .footer .top-footer .contact a {
@@ -255,5 +249,16 @@ h1 {
 .footer .bottom-footer a {
   color: #7952b3;
   text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  .home,
+  .about,
+  .project,
+  .language,
+  .contact {
+    text-align: center;
+    padding: 25px 0px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

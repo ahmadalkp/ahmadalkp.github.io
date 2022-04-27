@@ -1,6 +1,31 @@
 // .header {
 //     position: sticky;
 // }
+
+h1 {
+    font-weight: bold;
+}
+
+h4 {
+    color: #fba81f;
+
+    .head-text {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
+
+.btn {
+    border-radius: 38px;
+    font-weight: 600;
+    background-color: #f87537;
+    color: white;
+    padding: 13px;
+}
+.btn:hover {
+    background-color: #fba81f;
+}
+
 .name {
     font-size: 50px;
     // font-weight: 100;
@@ -27,84 +52,75 @@
     }
 }
 
-.reverse {
-    @media screen and (max-width: 425px) {
-        flex-direction: column-reverse !important;
-    }
-}
-
-.head-image {
-    background-image: url(assets/shapes/blob.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height: 570px;
-    overflow: hidden;
-
-    @media screen and (min-width: 426px) and (max-width: 767px) {
-        margin-top: -140px;
-    }
-
-    @media screen and (max-width: 425px) {
-        max-height: 335px;
-    }
-    @media screen and (min-width: 992px) and (max-width: 1399px) {
-        max-height: 485px;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-        position: relative;
-        bottom: 115px;
-
-        @media screen and (min-width: 992px) and (max-width: 1199px) {
-            bottom: 28px;
+.home {
+    .reverse {
+        @media screen and (max-width: 425px) {
+            flex-direction: column-reverse !important;
         }
+    }
 
-        @media screen and (max-width: 767px) {
-            bottom: 0px;
-        }
+    .home-text {
+        padding: 10rem 0rem;
 
         @media screen and (max-width: 425px) {
-            border-radius: 50%;
+            padding-bottom: 48px;
+        }
+
+        .head-text {
+            margin-bottom: 0px;
+
+            @media screen and (max-width: 425px) {
+                margin-top: -140px;
+            }
+
+            h1 {
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+
+            .desc {
+                color: gray;
+            }
         }
     }
-}
 
-.home-text {
-    padding: 10rem 0rem;
+    .head-image {
+        background-image: url(assets/shapes/blob.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 570px;
+        overflow: hidden;
 
-    @media screen and (max-width: 425px) {
-        padding-bottom: 48px;
-    }
-
-    .head-text {
-        margin-bottom: 0px;
-
-        @media screen and (max-width: 425px) {
+        @media screen and (min-width: 426px) and (max-width: 767px) {
             margin-top: -140px;
         }
-    }
 
-    h1 {
-        font-weight: bold;
-        margin-bottom: 0px;
-    }
+        @media screen and (max-width: 425px) {
+            max-height: 335px;
+        }
+        @media screen and (min-width: 992px) and (max-width: 1399px) {
+            max-height: 485px;
+        }
 
-    .desc {
-        color: gray;
-    }
-}
+        img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            bottom: 115px;
 
-.btn {
-    border-radius: 38px;
-    font-weight: 600;
-    background-color: #f87537;
-    color: white;
-    padding: 13px;
-}
-.btn:hover {
-    background-color: #FBA81F;
+            @media screen and (min-width: 992px) and (max-width: 1199px) {
+                bottom: 28px;
+            }
+
+            @media screen and (max-width: 767px) {
+                bottom: 0px;
+            }
+
+            @media screen and (max-width: 425px) {
+                border-radius: 50%;
+            }
+        }
+    }
 }
 
 .about {
@@ -139,7 +155,7 @@
     .language-icon {
         img {
             max-width: 70px;
-            margin: 0px 10px;
+            margin: 5px 10px;
 
             @media screen and (max-width: 425px) {
                 max-width: 40px;
@@ -150,27 +166,6 @@
             max-width: 32rem;
         }
     }
-}
-
-.home, .about, .project, .language, .contact{
-    @media screen and (max-width: 425px) {
-        text-align: center;
-    }
-}
-
-h4 {
-    color: #fba81f;
-
-    .head-text {
-        font-size: 1.3rem;
-        font-weight: bold;
-
-
-    }
-}
-
-h1 {
-    font-weight: bold;
 }
 
 .contact {
@@ -204,7 +199,7 @@ h1 {
             h2 {
                 margin-bottom: 1rem;
                 font-weight: bold;
-                font-family: 'Qahiri';
+                font-family: "Qahiri";
             }
             a {
                 margin-bottom: 0px;
@@ -237,5 +232,16 @@ h1 {
             color: #7952b3;
             text-decoration: none;
         }
+    }
+}
+
+.home,
+.about,
+.project,
+.language,
+.contact {
+    @media screen and (max-width: 425px) {
+        text-align: center;
+        padding: 25px 0px;
     }
 }
