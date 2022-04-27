@@ -131,6 +131,12 @@
   -webkit-transition: all 0.5s ease-in-out;
 }
 
+@media screen and (max-width: 425px) {
+  .about .socmed img {
+    max-width: 30px;
+  }
+}
+
 .about .socmed img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
@@ -146,6 +152,12 @@
   margin: 0px 10px;
 }
 
+@media screen and (max-width: 425px) {
+  .language .language-icon img {
+    max-width: 40px;
+  }
+}
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .language .language-icon {
     max-width: 32rem;
@@ -153,7 +165,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  div {
+  .home, .about, .project, .language, .contact {
     text-align: center;
   }
 }
