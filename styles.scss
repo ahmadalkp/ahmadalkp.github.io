@@ -1,24 +1,89 @@
 // .header {
 //     position: sticky;
 // }
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    // font-family: 'Qahiri';
+}
 
 .container {
     padding: 30px 50px;
+
+    @media screen and (max-width: 425px) {
+        padding: 15px 30px;
+    }
+
     &.navbar {
         padding: 0px 50px;
     }
 }
 
-.head-text {
-    font-size: 1.3rem;
-    font-weight: bold;
+.header {
+    .navbar-nav {
+        .nav-item {
+            margin: 0px 20px;
+        }
+    }
+}
+
+.reverse {
+    @media screen and (max-width: 425px) {
+        flex-direction: column-reverse !important;
+    }
+}
+
+.head-image {
+    background-image: url(assets/shapes/blob.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 570px;
+    overflow: hidden;
+
+    @media screen and (min-width: 426px) and (max-width: 767px) {
+        margin-top: -140px;
+    }
+
+    @media screen and (max-width: 425px) {
+        max-height: 335px;
+    }
+    @media screen and (min-width: 992px) and (max-width: 1399px) {
+        max-height: 485px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 115px;
+
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+            bottom: 28px;
+        }
+
+        @media screen and (max-width: 767px) {
+            bottom: 0px;
+        }
+
+        @media screen and (max-width: 425px) {
+            border-radius: 50%;
+        }
+    }
 }
 
 .home-text {
     padding: 10rem 0rem;
 
+    @media screen and (max-width: 425px) {
+        padding-bottom: 48px;
+    }
+
     .head-text {
         margin-bottom: 0px;
+
+        @media screen and (max-width: 425px) {
+            margin-top: -140px;
+        }
     }
 
     h1 {
@@ -34,7 +99,7 @@
 .btn {
     border-radius: 38px;
     font-weight: 600;
-    background-color: #F87537;
+    background-color: #f87537;
 }
 
 .about {
@@ -74,8 +139,21 @@
     }
 }
 
+div {
+    @media screen and (max-width: 425px) {
+        text-align: center;
+    }
+}
+
 h4 {
-    color: #FBA81F;
+    color: #fba81f;
+
+    .head-text {
+        font-size: 1.3rem;
+        font-weight: bold;
+
+
+    }
 }
 
 h1 {
@@ -89,7 +167,7 @@ h1 {
         .form-label {
             float: left;
             font-weight: bold;
-            color: #FBA81F;
+            color: #fba81f;
         }
 
         .btn {
