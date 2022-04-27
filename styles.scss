@@ -3,7 +3,7 @@
 // }
 .name {
     font-size: 50px;
-    font-weight: bold;
+    // font-weight: 100;
     // font-family: 'Qahiri';
 }
 
@@ -199,6 +199,7 @@ h1 {
             h2 {
                 margin-bottom: 1rem;
                 font-weight: bold;
+                font-family: 'Qahiri';
             }
             a {
                 margin-bottom: 0px;
@@ -207,7 +208,7 @@ h1 {
                 color: gray;
             }
 
-            @media screen and (max-width: 375px) {
+            @media screen and (max-width: 328px) {
                 text-align: left;
             }
         }

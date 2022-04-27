@@ -1,6 +1,5 @@
 .name {
   font-size: 50px;
-  font-weight: bold;
 }
 
 .container {
@@ -215,6 +214,7 @@ h1 {
 .footer .top-footer .contact h2 {
   margin-bottom: 1rem;
   font-weight: bold;
+  font-family: 'Qahiri';
 }
 
 .footer .top-footer .contact a {
@@ -225,7 +225,7 @@ h1 {
   color: gray;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 328px) {
   .footer .top-footer .contact {
     text-align: left;
   }
