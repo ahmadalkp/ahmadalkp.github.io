@@ -113,6 +113,7 @@
   border-radius: 38px;
   font-weight: 600;
   background-color: #f87537;
+  color: white;
 }
 
 .about {
@@ -247,7 +248,7 @@ h1 {
 }
 
 .footer .bottom-footer a {
-  color: gray;
+  color: #7952b3;
   text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
