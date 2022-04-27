@@ -148,6 +148,10 @@
   -webkit-transform: scale(1.01);
 }
 
+.about h2 {
+  font-weight: bold;
+}
+
 .language {
   background-color: #f8f9fa;
 }
