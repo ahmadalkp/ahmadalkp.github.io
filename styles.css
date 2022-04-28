@@ -55,7 +55,7 @@ h4 {
 
 @media screen and (max-width: 425px) {
   .home .home-text {
-    padding-bottom: 48px;
+    padding-bottom: 15px;
   }
 }
 
@@ -267,7 +267,7 @@ h4 {
   .language,
   .contact {
     text-align: center;
-    padding: 25px 0px;
+    padding: 40px 0px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
