@@ -69,6 +69,12 @@ h4 {
   }
 }
 
+@media screen and (max-width: 337px) {
+  .home .home-text .head-text {
+    font-size: 18px;
+  }
+}
+
 .home .home-text h1 {
   margin-bottom: 0px;
 }
