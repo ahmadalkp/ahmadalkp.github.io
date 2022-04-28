@@ -6,11 +6,6 @@ h4 {
   color: #fba81f;
 }
 
-h4 .head-text {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
 .btn {
   border-radius: 38px;
   font-weight: 600;
@@ -74,12 +69,15 @@ h4 .head-text {
   }
 }
 
-.home .home-text .head-text h1 {
-  font-weight: bold;
+.home .home-text h1 {
   margin-bottom: 0px;
 }
 
-.home .home-text .head-text .desc {
+.home .home-text h4 {
+  font-weight: bold;
+}
+
+.home .home-text .desc {
   color: gray;
 }
 
@@ -170,13 +168,13 @@ h4 .head-text {
 }
 
 .language .language-icon img {
-  max-width: 70px;
+  max-width: 75px;
   margin: 5px 10px;
 }
 
 @media screen and (max-width: 425px) {
   .language .language-icon img {
-    max-width: 40px;
+    max-width: 65px;
   }
 }
 

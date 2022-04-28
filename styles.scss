@@ -8,11 +8,6 @@ h1 {
 
 h4 {
     color: #fba81f;
-
-    .head-text {
-        font-size: 1.3rem;
-        font-weight: bold;
-    }
 }
 
 .btn {
@@ -68,19 +63,20 @@ h4 {
 
         .head-text {
             margin-bottom: 0px;
+            // font-weight: bold;
 
             @media screen and (max-width: 425px) {
                 margin-top: -140px;
             }
-
-            h1 {
-                font-weight: bold;
-                margin-bottom: 0px;
-            }
-
-            .desc {
-                color: gray;
-            }
+        }
+        h1 {
+            margin-bottom: 0px;
+        }
+        h4 {
+            font-weight: bold;
+        }
+        .desc {
+            color: gray;
         }
     }
 
@@ -158,11 +154,11 @@ h4 {
 
     .language-icon {
         img {
-            max-width: 70px;
+            max-width: 75px;
             margin: 5px 10px;
 
             @media screen and (max-width: 425px) {
-                max-width: 40px;
+                max-width: 65px;
             }
         }
 
