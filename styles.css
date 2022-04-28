@@ -93,6 +93,7 @@ h4 {
   background-repeat: no-repeat;
   max-height: 570px;
   overflow: hidden;
+  border-radius: 70%;
 }
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
