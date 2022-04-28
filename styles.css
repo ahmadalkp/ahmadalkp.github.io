@@ -6,11 +6,6 @@ h4 {
   color: #fba81f;
 }
 
-h4 .head-text {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
 .btn {
   border-radius: 38px;
   font-weight: 600;
@@ -60,7 +55,7 @@ h4 .head-text {
 
 @media screen and (max-width: 425px) {
   .home .home-text {
-    padding-bottom: 48px;
+    padding-bottom: 15px;
   }
 }
 
@@ -74,12 +69,21 @@ h4 .head-text {
   }
 }
 
-.home .home-text .head-text h1 {
-  font-weight: bold;
+@media screen and (max-width: 337px) {
+  .home .home-text .head-text {
+    font-size: 18px;
+  }
+}
+
+.home .home-text h1 {
   margin-bottom: 0px;
 }
 
-.home .home-text .head-text .desc {
+.home .home-text h4 {
+  font-weight: bold;
+}
+
+.home .home-text .desc {
   color: gray;
 }
 
@@ -170,13 +174,13 @@ h4 .head-text {
 }
 
 .language .language-icon img {
-  max-width: 70px;
+  max-width: 75px;
   margin: 5px 10px;
 }
 
 @media screen and (max-width: 425px) {
   .language .language-icon img {
-    max-width: 40px;
+    max-width: 55px;
   }
 }
 
@@ -211,31 +215,32 @@ h4 .head-text {
   border-bottom: 0.5px solid gray;
 }
 
-.footer .top-footer .contact {
+.footer .top-footer .contact-footer {
   text-align: right;
+  padding: 0px 12px;
 }
 
-.footer .top-footer .contact h2 {
+.footer .top-footer .contact-footer h2 {
   margin-bottom: 1rem;
   font-weight: bold;
   font-family: "Qahiri";
 }
 
-.footer .top-footer .contact a {
+.footer .top-footer .contact-footer a {
   margin-bottom: 0px;
 }
 
-.footer .top-footer .contact p {
+.footer .top-footer .contact-footer p {
   color: gray;
 }
 
 @media screen and (max-width: 328px) {
-  .footer .top-footer .contact {
+  .footer .top-footer .contact-footer {
     text-align: left;
   }
 }
 
-.footer .top-footer .links {
+.footer .top-footer .links-footer {
   font-size: large;
 }
 
@@ -262,7 +267,7 @@ h4 .head-text {
   .language,
   .contact {
     text-align: center;
-    padding: 25px 0px;
+    padding: 40px 0px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
