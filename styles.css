@@ -174,7 +174,7 @@ h4 {
 
 @media screen and (max-width: 425px) {
   .language .language-icon img {
-    max-width: 65px;
+    max-width: 60px;
   }
 }
 
