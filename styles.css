@@ -41,6 +41,24 @@ h4 {
 }
 
 @media screen and (max-width: 425px) {
+  .home,
+  .about,
+  .project,
+  .language,
+  .contact {
+    text-align: center;
+    padding: 40px 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .home {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .home .reverse {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: reverse !important;
@@ -259,16 +277,5 @@ h4 {
 .footer .bottom-footer a {
   color: #7952b3;
   text-decoration: none;
-}
-
-@media screen and (max-width: 425px) {
-  .home,
-  .about,
-  .project,
-  .language,
-  .contact {
-    text-align: center;
-    padding: 40px 0px;
-  }
 }
 /*# sourceMappingURL=styles.css.map */
