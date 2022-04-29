@@ -379,15 +379,40 @@ h4 {
     }
 
     50%{
-        transform: translateY(-1300px) rotate(720deg);
+        transform: translateY(-1000px) rotate(720deg);
         opacity: 0.8;
         border-radius: 100%;
     }
 
     100%{
-        transform: translateY(0px) rotate(-720deg);
+        transform: translateY(-300px) rotate(-720deg);
         opacity: 0;
         border-radius: 0%;
     }
 
+
 }
+
+@media screen and (max-width: 425px) {
+    @keyframes animate {
+
+        0%{
+            transform: translateY(0) rotate(0deg);
+            opacity: 0;
+            border-radius: 0%;
+        }
+    
+        50%{
+            transform: translateY(-1350px) rotate(720deg);
+            opacity: 0.8;
+            border-radius: 100%;
+        }
+    
+        100%{
+            transform: translateY(-800px) rotate(-720deg);
+            opacity: 0;
+            border-radius: 0%;
+        }
+    
+    
+    }}

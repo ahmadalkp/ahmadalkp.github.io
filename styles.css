@@ -418,14 +418,14 @@ h4 {
     border-radius: 0%;
   }
   50% {
-    -webkit-transform: translateY(-1300px) rotate(720deg);
-            transform: translateY(-1300px) rotate(720deg);
+    -webkit-transform: translateY(-1000px) rotate(720deg);
+            transform: translateY(-1000px) rotate(720deg);
     opacity: 0.8;
     border-radius: 100%;
   }
   100% {
-    -webkit-transform: translateY(0px) rotate(-720deg);
-            transform: translateY(0px) rotate(-720deg);
+    -webkit-transform: translateY(-300px) rotate(-720deg);
+            transform: translateY(-300px) rotate(-720deg);
     opacity: 0;
     border-radius: 0%;
   }
@@ -439,16 +439,59 @@ h4 {
     border-radius: 0%;
   }
   50% {
-    -webkit-transform: translateY(-1300px) rotate(720deg);
-            transform: translateY(-1300px) rotate(720deg);
+    -webkit-transform: translateY(-1000px) rotate(720deg);
+            transform: translateY(-1000px) rotate(720deg);
     opacity: 0.8;
     border-radius: 100%;
   }
   100% {
-    -webkit-transform: translateY(0px) rotate(-720deg);
-            transform: translateY(0px) rotate(-720deg);
+    -webkit-transform: translateY(-300px) rotate(-720deg);
+            transform: translateY(-300px) rotate(-720deg);
     opacity: 0;
     border-radius: 0%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  @-webkit-keyframes animate {
+    0% {
+      -webkit-transform: translateY(0) rotate(0deg);
+              transform: translateY(0) rotate(0deg);
+      opacity: 0;
+      border-radius: 0%;
+    }
+    50% {
+      -webkit-transform: translateY(-1350px) rotate(720deg);
+              transform: translateY(-1350px) rotate(720deg);
+      opacity: 0.8;
+      border-radius: 100%;
+    }
+    100% {
+      -webkit-transform: translateY(-800px) rotate(-720deg);
+              transform: translateY(-800px) rotate(-720deg);
+      opacity: 0;
+      border-radius: 0%;
+    }
+  }
+  @keyframes animate {
+    0% {
+      -webkit-transform: translateY(0) rotate(0deg);
+              transform: translateY(0) rotate(0deg);
+      opacity: 0;
+      border-radius: 0%;
+    }
+    50% {
+      -webkit-transform: translateY(-1350px) rotate(720deg);
+              transform: translateY(-1350px) rotate(720deg);
+      opacity: 0.8;
+      border-radius: 100%;
+    }
+    100% {
+      -webkit-transform: translateY(-800px) rotate(-720deg);
+              transform: translateY(-800px) rotate(-720deg);
+      opacity: 0;
+      border-radius: 0%;
+    }
   }
 }
 /*# sourceMappingURL=styles.css.map */
