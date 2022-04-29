@@ -292,9 +292,22 @@ h4 {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: #f87537;
-    animation: animate 10s linear infinite;
+    background: transparent;
+    animation: animate 15s linear infinite;
     bottom: -150px;
+    border: 1.8rem solid #f87537;
+
+    @media screen and (max-width: 425px) {
+        background: rgb(251, 168, 31);
+        background: radial-gradient(
+            circle,
+            rgba(251, 168, 31, 1) 0%,
+            rgba(251, 119, 31, 1) 52%,
+            rgba(248, 117, 55, 1) 81%
+        );
+        border: none;
+        animation: animate 35s linear infinite;
+    }
 }
 
 .circles li:nth-child(1) {
@@ -399,16 +412,24 @@ h4 {
         border-radius: 0%;
     }
 
+    10% {
+        opacity: 0.5;
+    }
+
     50% {
         transform: translateY(-1500px) rotate(720deg);
         opacity: 1;
-        border-radius: 100%;
+        border-radius: 80%;
+    }
+
+    80% {
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+        border-radius: 0%;
     }
 
     100% {
-        transform: translateY(-300px) rotate(-720deg);
         opacity: 0;
-        border-radius: 0%;
     }
 }
 
@@ -423,13 +444,17 @@ h4 {
         50% {
             transform: translateY(-1800px) rotate(720deg);
             opacity: 0.8;
-            border-radius: 100%;
+            border-radius: 50%;
+        }
+
+        60% {
+            transform: translateY(-1600px) rotate(360deg);
+            opacity: 0;
+            border-radius: 0%;
         }
 
         100% {
-            transform: translateY(-800px) rotate(-720deg);
             opacity: 0;
-            border-radius: 0%;
         }
     }
 }
