@@ -56,6 +56,9 @@ h4 {
     padding-top: 0px;
     padding-bottom: 30px;
   }
+  .home .container {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -74,6 +77,12 @@ h4 {
 @media screen and (max-width: 425px) {
   .home .home-text {
     padding-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 991px) {
+  .home .home-text {
+    padding: 5rem 0rem 2rem;
   }
 }
 
@@ -116,7 +125,14 @@ h4 {
 
 @media screen and (min-width: 426px) and (max-width: 767px) {
   .home .head-image {
-    margin-top: -140px;
+    margin-top: -78px;
+    max-height: 30rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home .head-image {
+    margin-bottom: 2rem;
   }
 }
 
