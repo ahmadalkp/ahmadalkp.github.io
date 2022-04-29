@@ -410,6 +410,37 @@ h4 {
           animation-duration: 11s;
 }
 
+.animate {
+  -webkit-animation: animate_pacman 25s linear infinite;
+          animation: animate_pacman 25s linear infinite;
+}
+
+.animate img {
+  max-width: 100px;
+}
+
+@-webkit-keyframes animate_pacman {
+  0% {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
+@keyframes animate_pacman {
+  0% {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+
 @-webkit-keyframes animate {
   0% {
     -webkit-transform: translateY(0) rotate(0deg);

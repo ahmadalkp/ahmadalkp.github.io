@@ -368,7 +368,22 @@ h4 {
     animation-duration: 11s;
 }
 
+.animate {
+    animation: animate_pacman 25s linear infinite;
+    img {
+        max-width: 100px;
+    }
+}
 
+@keyframes animate_pacman {
+    0%{
+        transform: translateX(-30%);
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}
 
 @keyframes animate {
 
