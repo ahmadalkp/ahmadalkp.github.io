@@ -282,9 +282,16 @@ h4 {
     }
 
     .bottom-footer {
-        a {
-            color: #7952b3;
-            text-decoration: none;
+        p {
+            a {
+                text-decoration: none;
+            }
+            a:nth-child(2) {
+                color: #0095f6;
+            }
+            a:nth-child(3) {
+                color: #7952b3;
+            }
         }
     }
 }
@@ -498,8 +505,8 @@ h4 {
             border-radius: 50%;
         }
 
-        60% {
-            transform: translateY(-1600px) rotate(360deg);
+        80% {
+            transform: translateY(-1300px) rotate(360deg);
             opacity: 0;
             border-radius: 0%;
         }

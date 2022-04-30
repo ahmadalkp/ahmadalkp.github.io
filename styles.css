@@ -307,9 +307,16 @@ h4 {
   color: white;
 }
 
-.footer .bottom-footer a {
-  color: #7952b3;
+.footer .bottom-footer p a {
   text-decoration: none;
+}
+
+.footer .bottom-footer p a:nth-child(2) {
+  color: #0095f6;
+}
+
+.footer .bottom-footer p a:nth-child(3) {
+  color: #7952b3;
 }
 
 .circles {
@@ -588,9 +595,9 @@ h4 {
       opacity: 0.8;
       border-radius: 50%;
     }
-    60% {
-      -webkit-transform: translateY(-1600px) rotate(360deg);
-              transform: translateY(-1600px) rotate(360deg);
+    80% {
+      -webkit-transform: translateY(-1300px) rotate(360deg);
+              transform: translateY(-1300px) rotate(360deg);
       opacity: 0;
       border-radius: 0%;
     }
@@ -611,9 +618,9 @@ h4 {
       opacity: 0.8;
       border-radius: 50%;
     }
-    60% {
-      -webkit-transform: translateY(-1600px) rotate(360deg);
-              transform: translateY(-1600px) rotate(360deg);
+    80% {
+      -webkit-transform: translateY(-1300px) rotate(360deg);
+              transform: translateY(-1300px) rotate(360deg);
       opacity: 0;
       border-radius: 0%;
     }
