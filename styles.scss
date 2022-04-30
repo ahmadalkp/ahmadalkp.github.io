@@ -193,6 +193,8 @@ h4 {
     }
     .card-body {
         z-index: 1;
+        .card-head {
+        }
         .card-text {
             max-height: 80px;
             overflow: auto;
