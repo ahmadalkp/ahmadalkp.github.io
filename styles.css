@@ -544,8 +544,8 @@ h4 {
     border-radius: 80%;
   }
   80% {
-    -webkit-transform: translateY(-1300px) rotate(360deg);
-            transform: translateY(-1300px) rotate(360deg);
+    -webkit-transform: translateY(-1500px) rotate(360deg);
+            transform: translateY(-1500px) rotate(360deg);
     opacity: 0;
     border-radius: 0%;
   }
@@ -571,8 +571,8 @@ h4 {
     border-radius: 80%;
   }
   80% {
-    -webkit-transform: translateY(-1300px) rotate(360deg);
-            transform: translateY(-1300px) rotate(360deg);
+    -webkit-transform: translateY(-1500px) rotate(360deg);
+            transform: translateY(-1500px) rotate(360deg);
     opacity: 0;
     border-radius: 0%;
   }
